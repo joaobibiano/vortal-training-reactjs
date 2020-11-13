@@ -1,0 +1,14 @@
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  position: relative;
+}
+
+.todoItemDeleteButton {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  color: #fff;
+  background-color: red;
+}
